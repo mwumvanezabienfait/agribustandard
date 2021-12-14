@@ -25,10 +25,8 @@ def ussdApp(request):
         text = request.POST['text']
         level = text.split('*')
         category = text[:3]
-        response =""
-        #  main menu for our application
         if text == '':
-            response =" CON Murakoze murisanga kuri agribusiness \n"
+            response ="CON Murakoze murisanga kuri agribusiness \n"
             response += "1. Kwandikisha ubutaka \n"
             response += "2. Kwandikisha igihingwa \n"
             response += "3. Kwandikisha umusaruro \n"
