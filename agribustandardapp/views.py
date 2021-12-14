@@ -16,15 +16,17 @@ africastalking.initialize(AfricasUsername,api_key)
 
 @csrf_exempt
 def ussdApp(request):
-
     if request.method == 'POST':
 
         session_id = request.POST.get("sessionId")
         service_code = request.POST.get("serviceCode")
-        phone_number =request.POST.get("phoneNumber")
+        phone_number = request.POST.get("phoneNumber")
         text = request.POST['text']
+        # 1*1*1
         level = text.split('*')
         category = text[:3]
+        response = ""
+        #  main menu for our application
         if text == '':
             response ="CON Murakoze murisanga kuri agribusiness \n"
             response += "1. Kwandikisha ubutaka \n"
