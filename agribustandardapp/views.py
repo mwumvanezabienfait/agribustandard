@@ -32,11 +32,11 @@ def ussdApp(request):
             response += "1. Kwandikisha ubutaka \n"
             response += "2. Kwandikisha igihingwa \n"
             response += "3. Kwandikisha umusaruro \n"
-        elif text == '1':
-            response = "CON Hitamo akarere \n"
-            response += "1.rubavu \n"
-            response += "2.nyabihu\n"
-            response += "3.musanze\n"
+        # elif text == '1':
+        #     response = "CON Hitamo akarere \n"
+        #     response += "1.rubavu \n"
+        #     response += "2.nyabihu\n"
+        #     response += "3.musanze\n"
         # elif text == '1*1':
         #     response = "CON uzuza umwirondoro\n"
         #     response += "numero yirangamuntu\n"
