@@ -37,77 +37,77 @@ def ussdApp(request):
             response += "1.rubavu \n"
             response += "2.nyabihu\n"
             response += "3.musanze\n"
-        elif text == '1*1':
-            response = "CON uzuza umwirondoro\n"
-            response += "numero yirangamuntu\n"
-
-        elif text == '1*1*1':
-            response = "CON Hitamo ubuso bwubutaka\n"
-            response += "1.hegitare 1-5 \n"
-            response += "2.hegitare 5-10\n"
-            response += "3.hegitare zirenze icumi\n"
-        elif text == '1*1*1*1':
-            response = "END Murakoze ,"
-        elif text == '1*2':
-            response = "CON uzuza umwirondoro\n"
-            response += "1.numero yirangamuntu\n"
-        elif text == '1*2*1':
-            response = "CON Hitamo ubuso bwubutaka\n"
-            response += "1.hegitare 1-5 \n"
-            response += "2.hegitare 5-10\n"
-            response += "3.hegitare zirenze icumi\n"
-        elif text == '1*3':
-            response = "CON uzuza umwirondoro\n"
-            response += "1.numero yirangamuntu\n"
-        elif text == '1*3*1':
-            response = "CON Hitamo ubuso bwubutaka\n"
-            response += "1.hegitare 1-5 \n"
-            response += "2.hegitare 5-10\n"
-            response += "3.hegitare zirenze icumi\n"
-
-        elif text == '2':
-            response = "CON shyiramo ubwoko bwigihingwa \n"
-            response += "1. ibirayi \n"
-            response += "2. ibishyimbo\n"
-            response += "3. ibigori\n"
-        elif text == '2*1':
-            response = "CON Hitamo ubwoko bwimbuto\n"
-            response += "1.kinigi \n"
-            response += "2.makoroni\n"
-        elif text == '2*1*1':
-            response = "END Murakoze "
-        elif text == '2*1*2':
-            response = "END Murakoze "
-
-        elif text == '2*2':
-            response = "CON Hitamo ubwoko bwimbuto\n"
-            response += "1.umutuku \n"
-            response += "2.umukara\n"
-        elif text == '2*2*1':
-            response = "END Murakoze "
-        elif text == '2*2*2':
-            response = "END Murakoze "
-
-        elif text == '2*3':
-            response = "CON Hitamo ubwoko bwimbuto\n"
-            response += "1.tubura \n"
-            response += "2.inyarwanda\n"
-        elif text == '2*3*1':
-            response = "END Murakoze "
-        elif text == '2*3*2':
-            response = "END Murakoze "
-
-        elif text == '3':
-            response = "CON andika umusaruro\n"
-            response += "1. ibirayi \n"
-            response += "2. ibishyimbo\n"
-            response += "3. ibigori\n"
-        elif text == '3*1':
-            response = "END Murakoze kwandikisha umusaruro"
-        elif text == '3*2':
-            response = "END Murakoze kwandikisha umusaruro"
-        elif text == '3*3':
-            response = "END Murakoze kwandikisha umusaruro"
+        # elif text == '1*1':
+        #     response = "CON uzuza umwirondoro\n"
+        #     response += "numero yirangamuntu\n"
+        #
+        # elif text == '1*1*1':
+        #     response = "CON Hitamo ubuso bwubutaka\n"
+        #     response += "1.hegitare 1-5 \n"
+        #     response += "2.hegitare 5-10\n"
+        #     response += "3.hegitare zirenze icumi\n"
+        # elif text == '1*1*1*1':
+        #     response = "END Murakoze ,"
+        # elif text == '1*2':
+        #     response = "CON uzuza umwirondoro\n"
+        #     response += "1.numero yirangamuntu\n"
+        # elif text == '1*2*1':
+        #     response = "CON Hitamo ubuso bwubutaka\n"
+        #     response += "1.hegitare 1-5 \n"
+        #     response += "2.hegitare 5-10\n"
+        #     response += "3.hegitare zirenze icumi\n"
+        # elif text == '1*3':
+        #     response = "CON uzuza umwirondoro\n"
+        #     response += "1.numero yirangamuntu\n"
+        # elif text == '1*3*1':
+        #     response = "CON Hitamo ubuso bwubutaka\n"
+        #     response += "1.hegitare 1-5 \n"
+        #     response += "2.hegitare 5-10\n"
+        #     response += "3.hegitare zirenze icumi\n"
+        #
+        # elif text == '2':
+        #     response = "CON shyiramo ubwoko bwigihingwa \n"
+        #     response += "1. ibirayi \n"
+        #     response += "2. ibishyimbo\n"
+        #     response += "3. ibigori\n"
+        # elif text == '2*1':
+        #     response = "CON Hitamo ubwoko bwimbuto\n"
+        #     response += "1.kinigi \n"
+        #     response += "2.makoroni\n"
+        # elif text == '2*1*1':
+        #     response = "END Murakoze "
+        # elif text == '2*1*2':
+        #     response = "END Murakoze "
+        #
+        # elif text == '2*2':
+        #     response = "CON Hitamo ubwoko bwimbuto\n"
+        #     response += "1.umutuku \n"
+        #     response += "2.umukara\n"
+        # elif text == '2*2*1':
+        #     response = "END Murakoze "
+        # elif text == '2*2*2':
+        #     response = "END Murakoze "
+        #
+        # elif text == '2*3':
+        #     response = "CON Hitamo ubwoko bwimbuto\n"
+        #     response += "1.tubura \n"
+        #     response += "2.inyarwanda\n"
+        # elif text == '2*3*1':
+        #     response = "END Murakoze "
+        # elif text == '2*3*2':
+        #     response = "END Murakoze "
+        #
+        # elif text == '3':
+        #     response = "CON andika umusaruro\n"
+        #     response += "1. ibirayi \n"
+        #     response += "2. ibishyimbo\n"
+        #     response += "3. ibigori\n"
+        # elif text == '3*1':
+        #     response = "END Murakoze kwandikisha umusaruro"
+        # elif text == '3*2':
+        #     response = "END Murakoze kwandikisha umusaruro"
+        # elif text == '3*3':
+        #     response = "END Murakoze kwandikisha umusaruro"
 
         else:
             response = "END Ukanze ibitaribyo, ongera mukanya"
